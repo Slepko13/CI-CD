@@ -5,7 +5,7 @@ import Navbar from './navbar/navbar';
 import AppRouter from './router/app-router';
 
 function App() {
-
+  //Just some text for test branch
   const [data, setData] = useState(null);
   const [toggle, setToggle] = useState(false);
   const [value, setValue] = useState('init')
