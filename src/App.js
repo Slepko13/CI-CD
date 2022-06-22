@@ -24,7 +24,7 @@ function App() {
       <div data-testid='value-elem'>{value}</div>
       {toggle && <div data-testid="toggle-elem">toggle</div>}
       {data && <div style={{ color: "red" }}>{data}</div>}
-      <h1>Hello world</h1>
+      <h1 style={{ color: "blue" }}>Hello world</h1>
       <button data-testid='toggle-btn' onClick={handleClick}>Click me</button>
       <input type="text" placeholder='input value' value={value} onChange={e => setValue(e.target.value)} />
 
