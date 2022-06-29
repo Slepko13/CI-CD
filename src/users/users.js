@@ -17,7 +17,7 @@ const Users = () => {
     }, [])
 
     return (
-        <div data-testid='users-page'>
+        <div data-testid='users-page' className='test'>
             {users.map(({ id, name }) =>
                 <Link
                     to={`/users/${id}`}
